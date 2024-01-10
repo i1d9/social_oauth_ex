@@ -35,3 +35,4 @@ social_oauth-*.tar
 npm-debug.log
 /assets/node_modules/
 
+*.local.exs
