@@ -18,6 +18,8 @@ defmodule SocialOauthWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/x/redirect", OauthController, :twitter_redirect
+    get "/x/login", OauthController, :twitter_login
   end
 
   # Other scopes may use custom stacks.
